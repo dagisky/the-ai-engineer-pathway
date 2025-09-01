@@ -1,0 +1,59 @@
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.so
+*.dll
+
+# Virtual environments (per chapter)
+**/.venv/
+**/venv/
+**/env/
+**/ENV/
+.env
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+
+# Jupyter Notebook
+**/.ipynb_checkpoints/
+*.ipynb_convert/
+.jupyter/
+
+# -------------------------------
+# Editors / IDEs
+# -------------------------------
+
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# -------------------------------
+# OS / System
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Logs / Caches
+# -------------------------------
+*.log
+.cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/

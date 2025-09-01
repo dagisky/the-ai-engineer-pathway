@@ -1,0 +1,14 @@
+# Core libraries
+openai>=1.0.0
+langchain>=0.3.0
+langgraph>=0.1.0
+langchain-openai>=0.1.0
+mcp>=0.1.0
+
+# Jupyter Notebook environment
+jupyterlab>=4.0.0
+ipykernel>=6.0.0
+notebook>=7.0.0
+
+# Env variables
+python-dotenv>=1.0.0
