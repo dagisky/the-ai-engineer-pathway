@@ -7,6 +7,11 @@ langchain-openai>=0.1.0
 mcp>=0.1.0
 numpy>=1.26.0
 matplotlib>=3.9.0
+ipywidgets>=8.1.0
+ipympl>=0.9.0
+# - agents -
+google-search-results>=1.8.2
+numexpr>=2.7.3
 
 # Jupyter Notebook environment
 jupyterlab>=4.0.0
@@ -15,3 +20,6 @@ notebook>=7.0.0
 
 # Env variables
 python-dotenv>=1.0.0
+
+# Vector store
+chromadb>=0.4.24
