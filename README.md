@@ -21,10 +21,10 @@ source .venv/bin/activate   # For Linux/Mac
 
 ### 3. Add enviromental variables
 Create `.env` file in the root directory and add the following variables
-```
+```bash
 AZURE_OPENAI_ENDPOINT = <Your OpenAI Endpoint>
 AZURE_OPENAI_API_KEY = <Your Azure OpenAI Key>
-OPEN_API_KEY = <Your OpenAI Key> # For Openai account
+OPEN_API_KEY = <Your OpenAI Key>   # For Openai account
 SERPAPI_API_KEY = <Your Serpapi Key>
 ```
 
