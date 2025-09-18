@@ -19,12 +19,20 @@ source .venv/bin/activate   # For Linux/Mac
 .venv\Scripts\activate      # For Windows
 ```
 
-### 3. Install dependencies
+### 3. Add enviromental variables
+Create `.env` file in the root directory and add the following variables
+```
+AZURE_OPENAI_ENDPOINT = <Your OpenAI Endpoint>
+AZURE_OPENAI_API_KEY = <Your OpenAI Key>
+SERPAPI_API_KEY = <Your Serpapi Key>
+```
+
+### 4. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Launch JupyterLab
+### 5. Launch JupyterLab
 ```bash
 jupyter lab
 ```
