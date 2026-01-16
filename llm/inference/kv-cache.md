@@ -197,7 +197,7 @@ Q_4 K'^{\!\top}=
 
 ---
 
-### 🚀 Complexity Comparison
+###  Complexity Comparison
 
 | Method | Per-step cost |
 |--------|---------------|
